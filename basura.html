@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Por qué no arrojar basura y cómo nos afecta</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Nuevo */
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 8px 8px;
+            margin-top: 40px;
+        }
+        .quote {
+            background-color: #f2f2f2;
+            border-left: 6px solid #4CAF50;
+            padding: 20px;
+            margin: 20px 0;
+            font-style: italic;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .tips {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .tip {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        .tip h3 {
+            color: #4CAF50;
+            margin-bottom: 5px;
+        }
+        .tip p {
+            margin-bottom: 5px;
+        }
+        .tip img {
+            float: left;
+            margin-right: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            width: 40px; /* Tamaño ajustado */
+            height: 40px; /* Tamaño ajustado */
+        }
+        .author {
+            font-style: italic;
+            color: #777;
+            text-align: right;
+            margin-top: 10px;
+        }
+        .attention {
+            font-size: 24px;
+            color: #FF5722;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .fancy-box {
+            background-color: #f2f2f2;
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+        .fancy-box h2 {
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .fancy-box p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .fancy-box img {
+            display: block;
+            margin: 0 auto 10px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 80%;
+        }
+        /* Nuevas reglas de estilo */
+        .copyright {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 8px 8px;
+            margin-top: 40px;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Por qué no arrojar basura y cómo nos afecta</h1>
+    </header>
+    <div class="container">
+        <div class="attention">¡Cuidemos nuestro planeta!</div>
+        <img src="imagenes/descargabasu.jpg" alt="Imagen 1" style="max-width: 90%; margin-bottom: 30px;">
+        <p>
+            Arrojar basura al medio ambiente es una práctica dañina que afecta nuestra salud, la biodiversidad y el equilibrio ecológico. Cada año, toneladas de desechos contaminan nuestros océanos, ríos y suelos, causando graves impactos ambientales y sociales.
+        </p>
+        <img src="imagenes/reciclaje-medio-ambiente-valor.jpg" alt="Imagen 2" style="max-width: 90%; margin-bottom: 30px;">
+        <p>
+            La basura desechada incorrectamente contamina el agua que bebemos y los alimentos que consumimos. Además, puede representar un peligro para la vida silvestre, ya que los animales pueden quedar atrapados en los desechos o ingerirlos, lo que provoca lesiones e incluso la muerte.
+        </p>
+        <div class="quote">
+            <p>La basura que arrojamos hoy, es el problema que enfrentaremos mañana.</p>
+        </div>
+        <div class="tips">
+            <h2>Consejos para reducir la basura:</h2>
+            <div class="tip">
+                <img src="imagenes/sidescarga.jpg" alt="Icono Reducir">
+                <h3>1. Reduce el consumo de plástico</h3>
+                <p>Opta por productos reutilizables en lugar de desechables y lleva tu propia bolsa de tela al hacer compras.</p>
+            </div>
+            <div class="tip">
+                <img src="imagenes/sidescarga.jpg" alt="Icono Reciclar">
+                <h3>2. Recicla siempre que sea posible</h3>
+                <p>Clasifica tus residuos y deposítalos en los contenedores de reciclaje adecuados.</p>
+            </div>
+            <div class="tip">
+                <img src="imagenes/sidescarga.jpg" alt="Icono Limpieza">
+                <h3>3. Participa en limpiezas comunitarias</h3>
+                <p>Únete a actividades de limpieza de playas, parques y calles en tu comunidad.</p>
+            </div>
+        </div>
+        <img src="imagenes/recy.png" alt="Imagen 3" style="max-width: 90%; margin-bottom: 30px;">
+        <p>
+            El problema de la basura no solo afecta al medio ambiente, sino también a la economía y la calidad de vida de las personas. La limpieza de desechos representa un costo considerable para los gobiernos y las comunidades, y la presencia de basura en áreas públicas puede disminuir el atractivo turístico y el valor de las propiedades.
+        </p>
+        <p>
+            Además, la basura contribuye al cambio climático al liberar gases de efecto invernadero cuando se descompone. Esto agrava los problemas ambientales existentes, como el calentamiento global y la degradación de los ecosistemas.
+        </p>
+        <p>
+            Es fundamental que tomemos conciencia sobre el impacto de nuestros hábitos de consumo y aprendamos a reducir, reutilizar y reciclar nuestros desechos. Al tomar medidas para minimizar nuestra generación de basura y disponer adecuadamente de los desechos, podemos proteger el medio ambiente y asegurar un futuro sostenible para las generaciones venideras.
+        </p>
+        <!-- Elementos adicionales para mejorar la decoración -->
+        <div class="fancy-box">
+            <h2>¡Cuida el planeta!</h2>
+            <p>Pequeños cambios hacen grandes diferencias. Sé parte del cambio y ayuda a preservar nuestro hogar.</p>
+        </div>
+        <div class="circle"></div>
+        <div class="fancy-box">
+            <h2>¡Únete a la causa!</h2>
+            <p>Encuentra organizaciones locales que se dediquen a la conservación del medio ambiente y únete a ellas. Tu apoyo es vital para hacer la diferencia.</p>
+        </div>
+        <!-- Añade más elementos aquí si es necesario -->
+        <a href="otra_pagina.html" class="button">Volver</a>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2024 - Por qué no arrojar basura y cómo nos afecta</p>
+        </div>
+    </footer>
+</body>
+</html>

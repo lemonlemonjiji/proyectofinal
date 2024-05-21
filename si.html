@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contacto</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f0f0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+            color: #555;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .btn {
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+        }
+        .btn i {
+            margin-right: 8px;
+        }
+        .btn-facebook {
+            background: #3b5998;
+        }
+        .btn-facebook:hover {
+            background: #2d4373;
+        }
+        .btn-instagram {
+            background: #e1306c;
+        }
+        .btn-instagram:hover {
+            background: #c13584;
+        }
+        .btn-whatsapp {
+            background: #25d366;
+        }
+        .btn-whatsapp:hover {
+            background: #128c7e;
+        }
+        .btn-back {
+            background: #555555;
+            color: white;
+            margin-top: 20px;
+            font-size: 0.8em;
+            padding: 8px 16px;
+        }
+        .btn-back:hover {
+            background: #333333;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k6Rnbwh+OZZcCk+SyEL4Q4u7g0W+Rs4Ht+w8duOcQJmAzDZtZ+pRr7HLX9zL7+XzI3+4E6nJMzN/w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Contacta con Nosotros</h1>
+        <p>Estamos aquí para ayudarte. Conéctate con nosotros a través de nuestras redes sociales o envíanos un mensaje por WhatsApp.</p>
+        <div class="image-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </div>
+        <div class="buttons">
+            <a class="btn btn-facebook" href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a class="btn btn-instagram" href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a class="btn btn-whatsapp" href="https://api.whatsapp.com/send?phone=1234567890" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+        </div>
+        <a class="btn btn-back" href="https://www.ejemplo.com">
+            <i class="fas fa-arrow-left"></i> Volver
+        </a>
+        <footer>
+            <p>© 2024 Todos los derechos reservados. Página de Contacto Medioambiental.</p>
+        </footer>
+    </div>
+</body>
+</html>
