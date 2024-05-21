@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problemas Climáticos en Colombia</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- CSS personalizado -->
+  <style>
+    /* Estilos personalizados */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .jumbotron {
+      background-image: url('imagenes/descargaa.jpeg');
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+      margin-bottom: 30px;
+      border-radius: 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+      text-transform: uppercase;
+    }
+    .container {
+      margin-bottom: 30px;
+    }
+    .card {
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .recommendations {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 30px;
+    }
+    .recommendations h3 {
+      color: #333;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .recommendations ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .recommendations ul li {
+      color: #666;
+      padding-left: 20px;
+      position: relative;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .recommendations ul li:before {
+      content: "\2022";
+      position: absolute;
+      left: 0;
+      color: #17a2b8;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+    footer p {
+      margin: 0;
+    }
+    .animated-bg {
+      position: relative;
+      background-color: #ffffff;
+      animation: gradient 10s ease infinite;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    .animated-bg-text {
+      position: relative;
+      overflow: hidden;
+    }
+    .animated-bg-text:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+      animation: slide 2s linear infinite;
+    }
+    @keyframes slide {
+      100% {
+        left: 100%;
+      }
+    }
+    .highlight {
+      background-color: #42eb50;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+    .bg-dots {
+      position: relative;
+      background-color: #f8f9fa;
+      overflow: hidden;
+      z-index: 0;
+    }
+    .bg-dots:before {
+      content: '';
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      top: -100px;
+      left: -100px;
+      z-index: -1;
+    }
+    .bg-dots:after {
+      content: '';
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 50%;
+      top: 50px;
+      right: -200px;
+      z-index: -1;
+    }
+    .decorative-border {
+      border: 2px solid #42eb50;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Encabezado -->
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-4">Problemas Climáticos en Colombia</h1>
+    <p class="lead">Explorando otros desafíos ambientales en Colombia.</p>
+  </div>
+</div>
+
+<!-- Sección de Deforestación -->
+<section id="deforestacion" class="bg-dots">
+  <div class="container">
+    <h2 class="section-title">Deforestación en Colombia</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p class="decorative-border">La deforestación es un problema crítico en Colombia que contribuye al cambio climático. La tala de bosques tropicales para la agricultura, la ganadería y la minería causa la pérdida de biodiversidad, la degradación del suelo y la liberación de grandes cantidades de carbono almacenado. Esto afecta los ciclos climáticos locales y regionales, así como los patrones de lluvia y temperatura. La deforestación también aumenta el riesgo de deslizamientos de tierra y la pérdida de servicios ecosistémicos.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="imagenes/202404081105086.jpg" class="img-fluid" alt="Deforestación en Colombia">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="recommendations">
+          <h3>Recomendaciones para abordar la deforestación en Colombia:</h3>
+          <ul>
+            <li>Promover el uso de tecnologías sostenibles en la industria forestal.</li>
+            <li>Fomentar la educación ambiental y la conciencia sobre la importancia de los bosques.</li>
+            <li>Establecer áreas protegidas y reservas naturales para conservar la biodiversidad.</li>
+            <li>Implementar políticas de reforestación y restauración de ecosistemas degradados.</li>
+            <li>Involucrar a las comunidades locales en la gestión sostenible de los recursos forestales.</li>
+            <li>Apoyar proyectos de investigación para desarrollar soluciones innovadoras para la conservación de los bosques.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Contaminación de Aguas -->
+<section id="contaminacion-aguas" class="bg-light">
+  <div class="container">
+    <h2 class="section-title">Contaminación de Aguas en Colombia</h2>
+    <div class="row">
+      <div class="col-md-6 order-md-2">
+        <p class="decorative-border">La contaminación de las aguas es un problema ambiental significativo en Colombia. La descarga de desechos industriales, agrícolas y domésticos en ríos, lagos y océanos contamina los recursos hídricos y pone en peligro la vida acuática y la salud humana. Además, la deforestación y la minería ilegal contribuyen a la erosión del suelo y la sedimentación de los cuerpos de agua, lo que agrava aún más la contaminación.</p>
+      </div>
+      <div class="col-md-6 order-md-1">
+        <img src="imagenes/WhatsApp-Image-2019-02-09-at-11.59.40-AM-1.jpeg" class="img-fluid" alt="Contaminación de Aguas en Colombia">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="recommendations">
+          <h3>Recomendaciones para abordar la contaminación de aguas en Colombia:</h3>
+          <ul>
+            <li>Implementar sistemas de tratamiento de aguas residuales en industrias y áreas urbanas.</li>
+            <li>Regular y controlar la disposición de desechos químicos y orgánicos en cuerpos de agua.</li>
+            <li>Promover prácticas agrícolas sostenibles que reduzcan la escorrentía de nutrientes y productos químicos hacia los ríos y arroyos.</li>
+            <li>Restaurar los ecosistemas acuáticos degradados mediante la reforestación de las áreas riparias y la eliminación de especies invasoras.</li>
+            <li>Educar a la población sobre la importancia de conservar los recursos hídricos y practicar un consumo responsable del agua.</li>
+            <li>Fomentar la participación comunitaria en la vigilancia y protección de los cuerpos de agua locales.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pie de página -->
+<footer class="bg-dark">
+  <div class="container">
+    <p>&copy; 2024 Problemas Climáticos en Colombia. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS y Popper.js (opcional) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
